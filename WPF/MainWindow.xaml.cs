@@ -34,5 +34,21 @@ namespace WPF
         {
 
         }
+
+        private void Button_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            mywrap.Width  = Width * 2 / 3;
+
+        }
+
+        private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            mywrap.Width = Width * 2 / 3;
+
+        }
     }
 }

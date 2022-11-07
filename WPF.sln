@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{9B520531-02D3-424E-B86C-D9CF25EC7ABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF", "WPF\WPF.csproj", "{9B520531-02D3-424E-B86C-D9CF25EC7ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculyator", "Calculyator\Calculyator.csproj", "{1A156E1D-E33C-4A96-AD5E-9BD25544A187}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9B520531-02D3-424E-B86C-D9CF25EC7ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B520531-02D3-424E-B86C-D9CF25EC7ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B520531-02D3-424E-B86C-D9CF25EC7ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A156E1D-E33C-4A96-AD5E-9BD25544A187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A156E1D-E33C-4A96-AD5E-9BD25544A187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A156E1D-E33C-4A96-AD5E-9BD25544A187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A156E1D-E33C-4A96-AD5E-9BD25544A187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
