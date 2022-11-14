@@ -64,5 +64,10 @@ namespace Lesson_7
                 
             }
         }
+
+        private void sli_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            groupB.Height = 100;
+        }
     }
 }
