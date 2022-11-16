@@ -44,9 +44,12 @@
                                  VerticalAlignment="Top" Width="245" Minimum="450" Maximum="800" Value="450"/>
                     <ScrollBar x:Name="sb"  Grid.Column="1" Orientation="Vertical" 
                                HorizontalAlignment="Left" Margin="247,0,0,0" VerticalAlignment="Center" Height="286"/>
-                    <Slider x:Name="sli" Grid.Column="2" HorizontalAlignment="Center" Margin="20,122,0,0" 
-                            VerticalAlignment="Top" Width="207" Height="29" SmallChange="1" ValueChanged="sli_ValueChanged"
-                            TickFrequency="5" Minimum="5" Maximum="25" Ticks=" 5,10,15,20,25" TickPlacement="BottomRight"/>
+                    <Slider x:Name="sli" SmallChange="5" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" 
+                            Margin="48,122,0,0" Width="207" Height="29" Ticks="0,5,10,15,20,25" ValueChanged="sli_ValueChanged" 
+                            TickFrequency="5" Grid.ColumnSpan="2" />
+                    <!--<Slider x:Name="sli" Grid.Column="2" HorizontalAlignment="Center" Margin="20,122,0,0" 
+                            VerticalAlignment="Top" SmallChange="5" ValueChanged="sli_ValueChanged"
+                            TickFrequency="5" Minimum="5" Maximum="25" Ticks=" 5,10,15,20,25" TickPlacement="BottomRight"/>-->
                     <GroupBox x:Name="groupB" Grid.Column="1" Header="GroupBox" Height="500"/>
                     <Button x:Name="btn_start" Content="Button" HorizontalAlignment="Left" Margin="54,55,0,0" VerticalAlignment="Top" Height="48" Width="167" Click="btn_start_Click"/>
 

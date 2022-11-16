@@ -67,7 +67,15 @@ namespace Lesson_7
 
         private void sli_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            groupB.Height = 100;
+            groupB.Height = e.NewValue * 50;
+        }
+        private void sli2_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            groupB.Height = e.NewValue * 50;
+        }
+        private void sli_ValueChanged_1(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            groupB.Height = e.NewValue * 50; 
         }
     }
 }
