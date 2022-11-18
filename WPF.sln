@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculyator", "Calculyator\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 7", "Lesson 7\Lesson 7.csproj", "{07C0A61C-0D4A-419A-AEE2-BC60BB25A38F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expander", "Expander\Expander.csproj", "{CE879823-9593-4542-B178-BF9EC143DEDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expander", "Expander\Expander.csproj", "{CE879823-9593-4542-B178-BF9EC143DEDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "TextEditor\TextEditor.csproj", "{34E136C8-DD92-4F1C-BC00-8D887663FD3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CE879823-9593-4542-B178-BF9EC143DEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE879823-9593-4542-B178-BF9EC143DEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE879823-9593-4542-B178-BF9EC143DEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E136C8-DD92-4F1C-BC00-8D887663FD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E136C8-DD92-4F1C-BC00-8D887663FD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E136C8-DD92-4F1C-BC00-8D887663FD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E136C8-DD92-4F1C-BC00-8D887663FD3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
