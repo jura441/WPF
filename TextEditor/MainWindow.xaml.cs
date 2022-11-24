@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -39,36 +40,38 @@ namespace TextEditor
                 OpenFileDialog ofd = new OpenFileDialog();
                 if (ofd.ShowDialog() != null)
                 {
-                    StreamReader sr = new StreamReader(ofd.FileName);
-                    sr = new StreamReader(ofd.FileName);
+                    StreamReader sr = new StreamReader(ofd.OpenFile());
+                    FlowDocument fd = new FlowDocument();
+                    string line;
+                    if (sr != null)
+                    {
+                        while ((line = sr.ReadLine()) != null)
+                        {
+                            fd.Blocks.Add(new Paragraph(new Run(line)));
+                        }
+                        rtb_editor.Document = fd;
+                        sr.Close();
+                    }
                 }
-
-                FlowDocument fd = new FlowDocument();
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    fd.Blocks.Add(new Paragraph(new Run(line)));
-                }
-                rtb_editor.Document = fd;
             }
             catch
             {
 
             }
-
         }
+        
 
         private void main_mi_save_Click(object sender, RoutedEventArgs e)
         {
-            StreamWriter sw = new StreamWriter("document.txt", true, Encoding.UTF8);
-            foreach(Paragraph block in rtb_editor.Document.Blocks)
-            {
-                foreach(Run r in block.Inlines)
-                {
-                    sw.WriteLine(r.Text);
-                }
-            }
-             sw.Close(); 
+            //StreamWriter sw = new StreamWriter("document.txt", true, Encoding.UTF8);
+            //foreach(Paragraph block in rtb_editor.Document.Blocks)
+            //{
+            //    foreach(Run r in block.Inlines)
+            //    {
+            //        sw.WriteLine(r.Text);
+            //    }
+            //}
+            // sw.Close(); 
         }
 
         private void main_mi_saveAs_Click(object sender, RoutedEventArgs e)
