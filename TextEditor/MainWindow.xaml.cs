@@ -93,5 +93,15 @@ namespace TextEditor
         {
 
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void main_mi_fontShow_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

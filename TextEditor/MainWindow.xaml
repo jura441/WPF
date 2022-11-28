@@ -39,9 +39,9 @@
             </MenuItem>
             <MenuItem Header="Format">
                 <MenuItem x:Name="main_mi_wordWrap" Header="Wrap"></MenuItem>
-                <MenuItem x:Name="main_mi_fontShow" Header="Font"></MenuItem>
+                <MenuItem x:Name="main_mi_fontShow" Header="Font" Click="main_mi_fontShow_Click"></MenuItem>
             </MenuItem>
-            <MenuItem Header="View">
+            <MenuItem Header="View" Click="MenuItem_Click">
                 <MenuItem Header="Scale">
                     <MenuItem x:Name="main_mi_growScale" Header="Grow scale"></MenuItem>
                     <MenuItem x:Name="main_mi_tinyScale" Header="Tiny scale"></MenuItem>
