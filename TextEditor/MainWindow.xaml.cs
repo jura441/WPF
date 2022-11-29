@@ -91,7 +91,7 @@ namespace TextEditor
 
         private void main_mi_exit_Click(object sender, RoutedEventArgs e)
         {
-
+            Close();
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
