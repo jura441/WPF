@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 7", "Lesson 7\Lesson
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expander", "Expander\Expander.csproj", "{CE879823-9593-4542-B178-BF9EC143DEDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "TextEditor\TextEditor.csproj", "{34E136C8-DD92-4F1C-BC00-8D887663FD3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextEditor", "TextEditor\TextEditor.csproj", "{34E136C8-DD92-4F1C-BC00-8D887663FD3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QWERTY", "QWERTY\QWERTY.csproj", "{6A6B9B46-61F9-4A94-8539-7DF15824ED5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{34E136C8-DD92-4F1C-BC00-8D887663FD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E136C8-DD92-4F1C-BC00-8D887663FD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E136C8-DD92-4F1C-BC00-8D887663FD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6B9B46-61F9-4A94-8539-7DF15824ED5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6B9B46-61F9-4A94-8539-7DF15824ED5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6B9B46-61F9-4A94-8539-7DF15824ED5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6B9B46-61F9-4A94-8539-7DF15824ED5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
